@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\бп1.jpg" />
+    <None Remove="Resources\Images\бп2.jpg" />
+    <None Remove="Resources\Images\бп3.jpg" />
+    <None Remove="Resources\Images\гпу1.jpg" />
+    <None Remove="Resources\Images\гпу2.jpg" />
+    <None Remove="Resources\Images\гпу3.jpg" />
+    <None Remove="Resources\Images\диск1.jpg" />
+    <None Remove="Resources\Images\диск2.jpg" />
+    <None Remove="Resources\Images\диск3.jpg" />
+    <None Remove="Resources\Images\мп1.jpg" />
+    <None Remove="Resources\Images\мп2.jpg" />
+    <None Remove="Resources\Images\мп3.jpg" />
+    <None Remove="Resources\Images\пк.jpg" />
+    <None Remove="Resources\Images\рам1.jpg" />
+    <None Remove="Resources\Images\рам2.jpg" />
+    <None Remove="Resources\Images\рам3.jpg" />
+    <None Remove="Resources\Images\Фон.jpg" />
+    <None Remove="Resources\Images\цпу1.jpg" />
+    <None Remove="Resources\Images\цпу2.jpg" />
+    <None Remove="Resources\Images\цпу3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\бп1.jpg" />
+    <Resource Include="Resources\Images\бп2.jpg" />
+    <Resource Include="Resources\Images\бп3.jpg" />
+    <Resource Include="Resources\Images\гпу1.jpg" />
+    <Resource Include="Resources\Images\гпу2.jpg" />
+    <Resource Include="Resources\Images\гпу3.jpg" />
+    <Resource Include="Resources\Images\диск1.jpg" />
+    <Resource Include="Resources\Images\диск2.jpg" />
+    <Resource Include="Resources\Images\диск3.jpg" />
+    <Resource Include="Resources\Images\мп1.jpg" />
+    <Resource Include="Resources\Images\мп2.jpg" />
+    <Resource Include="Resources\Images\мп3.jpg" />
+    <Resource Include="Resources\Images\пк.jpg" />
+    <Resource Include="Resources\Images\рам1.jpg" />
+    <Resource Include="Resources\Images\рам2.jpg" />
+    <Resource Include="Resources\Images\рам3.jpg" />
+    <Resource Include="Resources\Images\Фон.jpg" />
+    <Resource Include="Resources\Images\цпу1.jpg" />
+    <Resource Include="Resources\Images\цпу2.jpg" />
+    <Resource Include="Resources\Images\цпу3.jpg" />
+  </ItemGroup>
+
+</Project>
